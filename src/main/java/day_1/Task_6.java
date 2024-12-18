@@ -8,7 +8,7 @@ public class Task_6 extends Task_1 {
      * какую-нибудь цифру от 1 до 9. Используя цикл на ваше усмотрение (for или while),
      * выведите в консоль таблицу умножения для этой цифры.
      */
-    static void printMultiplicationTable(int k) {
+    public static void printMultiplicationTable(int k) {
         for (int num = 1; num < COUNT; num++) {
             printWords("column", num + " x " + k + " = " + num * k);
         }

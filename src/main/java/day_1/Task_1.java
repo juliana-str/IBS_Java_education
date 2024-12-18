@@ -9,7 +9,7 @@ public class Task_1 {
      * цикл while.
      */
 
-    static void printJavaWordInLine() {
+    public static void printJavaWordInLine() {
         int flagCount = 0;
         while (COUNT > flagCount) {
             printWords("line", WORD_FOR_PRINT);
@@ -17,7 +17,7 @@ public class Task_1 {
         }
     }
 
-    static void printWords(String method, String words) {
+    public static void printWords(String method, String words) {
         if (method.equals("line")) {
             System.out.print(words + " ");
         } else {

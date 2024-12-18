@@ -9,7 +9,7 @@ public class Task_4 extends Task_1 {
      * “Олимпиада X года”, где X - это число, которое принимает значения, начиная от 1980
      * до 2020 с шагом увеличения равным 4.
      */
-    static void printOlimpiadaYear(int year, int yearLast) {
+    public static void printOlimpiadaYear(int year, int yearLast) {
         while (year <= yearLast) {
             printWords("column", "Олимпиада " + year + " года");
             year += 4;
