@@ -1,8 +1,7 @@
 package day_2;
 
-import java.util.Scanner;
 
-public class Task_2 extends Task_1{
+public class Task_2 extends Task_1 {
     /**
      * Есть два числа, которые задаются пользователем через консоль (назовем эти два
      * числа a и b). Используя цикл for, вывести все числа из диапазона между a и b,
@@ -15,7 +14,7 @@ public class Task_2 extends Task_1{
      */
     public static void printNumsArray(int a, int b) {
         for (int i = a + 1; i < b; i++) {
-            if (i % 5 == 0 & i % 10 != 0) {
+            if (i % 5 == 0 && i % 10 != 0) {
                 System.out.print(i + " ");
             }
         }

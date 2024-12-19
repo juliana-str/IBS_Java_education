@@ -7,7 +7,7 @@ public class Task_3 extends Task_2 {
     public static void printNumsArray(int a, int b) {
         a = a + 1;
         while (a < b) {
-            if (a % 5 == 0 & a % 10 != 0) {
+            if (a % 5 == 0 && a % 10 != 0) {
                 System.out.print(a + " ");
             }
             a++;
