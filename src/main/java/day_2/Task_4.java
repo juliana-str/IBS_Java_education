@@ -21,7 +21,6 @@ public class Task_4 {
     }
 
     public static double getNextDouble() {
-        System.out.println("Введите дробное число.");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextDouble();
     }
