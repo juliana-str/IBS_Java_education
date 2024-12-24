@@ -38,7 +38,5 @@ public class Task_1 {
         long endTime2 = System.currentTimeMillis();
         long timeElapsed2 = endTime2 - startTime2;
         System.out.println("Время выполнения программы с использованием метода StringBuilder " + timeElapsed2 + " миллисекунд");
-
-
     }
 }
